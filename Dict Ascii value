@@ -1,0 +1,8 @@
+#Assignment 2 submission by Nitish Jha
+
+asciidict = dict()
+alphabet_value = range(97,123)
+for i in alphabet_value:
+    asciidict[str(i)] = chr(i)
+
+print(asciidict)
